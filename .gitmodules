@@ -1,0 +1,6 @@
+[submodule "easyvk"]
+	path = easyvk
+	url = https://github.com/ucsc-chpl/easyvk.git
+[submodule "easyvk/volk"]
+  path = easyvk/volk
+  url = https://github.com/zeux/volk.git
