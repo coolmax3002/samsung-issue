@@ -24,7 +24,7 @@ To reproduce this issue, you will need these dependencies installed on your mach
 - [Vulkan SDK](https://vulkan.lunarg.com/sdk/home)
 - [Android NDK](https://developer.android.com/ndk/downloads)
 - [Android SDK for ADB](https://developer.android.com/tools/releases/platform-tools#downloads.html)
-- Optional if compiling SPIR-V [clspv](https://github.com/google/clspv)
+- Optional if compiling OpenCL to SPIR-V [clspv](https://github.com/google/clspv)
   
 ## Building 
 To reproduce this issue, first clone the repository and its submodules using the following command:
