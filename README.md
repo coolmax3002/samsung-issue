@@ -19,13 +19,18 @@ In this test, it should be impossible for `r0 == 1` and `r1 == 0`. However, we f
 
 The shaders for this test were originally written in OpenCL and then compiled to SPIR-V using [clspv](https://github.com/google/clspv). Both the original OpenCL shader and compiled versions are included in the repository. 
 
-## Prerequistes
-To reproduce this issue, you will need these dependencies installed on your machine:
+## Prerequisites
+
+Before building, ensure you have the following tools installed on your system:
+
+### Required:
 - [Vulkan SDK](https://vulkan.lunarg.com/sdk/home)
 - [Android NDK](https://developer.android.com/ndk/downloads)
-- [Android SDK for ADB](https://developer.android.com/tools/releases/platform-tools#downloads.html)
-- Optional if compiling OpenCL to SPIR-V [clspv](https://github.com/google/clspv)
-  
+- [Android SDK Platform Tools (for ADB)](https://developer.android.com/tools/releases/platform-tools#downloads)
+
+### Optional:
+- [clspv](https://github.com/google/clspv) (required only if compiling OpenCL to SPIR-V)
+
 ## Building 
 To reproduce this issue, first clone the repository and its submodules using the following command:
 ```
