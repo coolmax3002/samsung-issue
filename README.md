@@ -49,7 +49,7 @@ The test can be run on the device using this command:
 adb shell "cd /data/local/tmp/build && ./runner"
 ```
 
-Once the test has finished running, the number of weak behavior that occured will be shown. For example :
+Once the test has finished running, the number of weak behavior that occured will be shown. For example, here are the results from running the test on a Samsung S22 using the Samsung Xclipse 920 GPU :
 ```
 Starting Test...
 Test Complete, total weak behaviors: 18
